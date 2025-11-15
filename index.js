@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 // --- CONFIGURATION & SECRETS ---
 // This is the one value you need to set manually in this file.
 // It can be any random string.
-const VERIFY_TOKEN = "YOUR_VERIFY_TOKEN"; 
+const VERIFY_TOKEN = "@Golapi2018"; 
 
 // These secrets are loaded from your hosting environment (e.g., Render's Environment Variables)
 const PAGE_ACCESS_TOKEN = process.env.FACEBOOK_PAGE_ACCESS_TOKEN;
