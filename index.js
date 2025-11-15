@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // --- YOUR TOKENS AND SECRETS ---
-const VERIFY_TOKEN = "YOUR_VERIFY_TOKEN"; // Put your Verify Token here
+const VERIFY_TOKEN = "@Golapi2018"; // Put your Verify Token here
 const PAGE_ACCESS_TOKEN = process.env.FACEBOOK_PAGE_ACCESS_TOKEN;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
